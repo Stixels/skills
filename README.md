@@ -14,12 +14,16 @@ skip exploration.
 The workflow:
 
 1. Understand the user's job and the actual product behavior.
-2. Consider materially different approaches.
-3. Render disposable mockups with realistic content.
+2. Explore approaches in proportion to the design uncertainty.
+3. Make visual decisions reviewable with realistic disposable mockups or sufficient existing visuals.
 4. Discuss the tradeoffs and agree on a direction.
 5. Implement when requested, then inspect the real experience.
 
 Mockups answer design questions. They are not production code by default.
+There is no fixed number of options or mockups. Their number and fidelity depend
+on what needs to be decided; layout and interaction decisions still require visual
+review. Record consequential approved decisions in existing project documentation
+when they need to outlive the conversation.
 The skill uses your project's design system and works without a prescribed
 frontend framework, Figma account, or custom MCP server. Your agent needs a way
 to create and inspect visual artifacts for the full workflow.
@@ -58,7 +62,9 @@ To make it part of a project's workflow, add this to its tracked `AGENTS.md`:
 
 > For meaningful UI or workflow changes, use the installed design-before-code
 > skill. Ground decisions in this project's context, design system, and actual
-> UI. Show disposable mockups and agree on a direction before implementation.
+> UI. Make layout, hierarchy, and interaction decisions visually reviewable, using
+> disposable mockups or sufficient existing visuals, and agree on a direction
+> before implementation. Choose mockup count and fidelity to resolve uncertainty.
 > Carry forward existing approval; skip exploration for minor fixes and approved
 > patterns. If the skill is missing, report that and follow this workflow directly.
 
