@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tdd"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Principle Make Operations Idempotent"
+policy:
+  allow_implicit_invocation: true

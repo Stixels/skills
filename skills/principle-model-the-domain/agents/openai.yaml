@@ -1,0 +1,4 @@
+interface:
+  display_name: "Principle Model The Domain"
+policy:
+  allow_implicit_invocation: true

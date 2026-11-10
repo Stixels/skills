@@ -1,0 +1,4 @@
+interface:
+  display_name: "Principle Minimize Reader Load"
+policy:
+  allow_implicit_invocation: true

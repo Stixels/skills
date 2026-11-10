@@ -1,0 +1,4 @@
+interface:
+  display_name: "Principle Never Block On The Human"
+policy:
+  allow_implicit_invocation: true

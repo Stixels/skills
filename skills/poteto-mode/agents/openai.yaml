@@ -1,0 +1,4 @@
+interface:
+  display_name: "Poteto Mode"
+policy:
+  allow_implicit_invocation: false
