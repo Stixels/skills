@@ -1,0 +1,4 @@
+interface:
+  display_name: "Figure It Out"
+policy:
+  allow_implicit_invocation: false

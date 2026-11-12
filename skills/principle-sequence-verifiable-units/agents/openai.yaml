@@ -1,0 +1,4 @@
+interface:
+  display_name: "Principle Sequence Verifiable Units"
+policy:
+  allow_implicit_invocation: true

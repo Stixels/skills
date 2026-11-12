@@ -1,0 +1,4 @@
+interface:
+  display_name: "Principle Migrate Callers Then Delete Legacy Apis"
+policy:
+  allow_implicit_invocation: true

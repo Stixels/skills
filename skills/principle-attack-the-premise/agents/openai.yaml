@@ -1,0 +1,4 @@
+interface:
+  display_name: "Principle Attack The Premise"
+policy:
+  allow_implicit_invocation: true

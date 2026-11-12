@@ -1,0 +1,4 @@
+interface:
+  display_name: "Principle Type System Discipline"
+policy:
+  allow_implicit_invocation: true

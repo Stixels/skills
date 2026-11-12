@@ -1,0 +1,4 @@
+interface:
+  display_name: "Principle Outcome Oriented Execution"
+policy:
+  allow_implicit_invocation: true

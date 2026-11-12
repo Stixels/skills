@@ -1,0 +1,4 @@
+interface:
+  display_name: "Principle Foundational Thinking"
+policy:
+  allow_implicit_invocation: true
