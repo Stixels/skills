@@ -1,6 +1,8 @@
 ---
 name: principle-attack-the-premise
 description: "Apply when two or more fixes that share one premise have failed the same gate. Write the premise down and test it directly before you write another fix that assumes it."
+metadata:
+  dependencies: "principle-build-the-lever principle-fix-root-causes principle-laziness-protocol principle-redesign-from-first-principles"
 ---
 
 # Attack the Premise
