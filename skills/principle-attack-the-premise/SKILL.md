@@ -5,6 +5,8 @@ metadata:
   dependencies: "principle-build-the-lever principle-fix-root-causes principle-laziness-protocol principle-redesign-from-first-principles"
 ---
 
+> Needs `principle-build-the-lever`, `principle-fix-root-causes`, `principle-laziness-protocol`, `principle-redesign-from-first-principles` installed next to this skill. If a `../<skill>/` file it points to is missing, tell the user to run `npx skills add Stixels/skills --skill principle-build-the-lever --skill principle-fix-root-causes --skill principle-laziness-protocol --skill principle-redesign-from-first-principles`.
+
 # Attack the Premise
 
 When two or more fixes that share one premise have failed the same gate, suspect the premise, not the fixes.

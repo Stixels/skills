@@ -5,6 +5,8 @@ metadata:
   dependencies: "benchmark-checklist principle-prove-it-works"
 ---
 
+> Needs `benchmark-checklist`, `principle-prove-it-works` installed next to this skill. If a `../<skill>/` file it points to is missing, tell the user to run `npx skills add Stixels/skills --skill benchmark-checklist --skill principle-prove-it-works`.
+
 # Explain the Number
 
 - **Write the decision before you run.** Name the result that would change a decision, and the noise floor. Stop when the run-to-run spread is larger than the effect.

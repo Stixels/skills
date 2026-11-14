@@ -6,6 +6,8 @@ metadata:
   dependencies: "mstack"
 ---
 
+> Needs `mstack` installed next to this skill. If a `../<skill>/` file it points to is missing, tell the user to run `npx skills add Stixels/skills --skill mstack`.
+
 # Interrogate
 
 Read [the mstack harness](../mstack/HARNESS.md) once per session before you follow this skill. It maps the Cursor names in these pstack skills to Claude Code, Codex and T3 Code, and says how to run each model.

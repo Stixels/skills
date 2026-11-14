@@ -4,6 +4,9 @@ description: "Apply to any non-trivial work, not just bulk work: edits, migratio
 metadata:
   dependencies: "principle-encode-lessons-in-structure principle-laziness-protocol principle-prove-it-works"
 ---
+
+> Needs `principle-encode-lessons-in-structure`, `principle-laziness-protocol`, `principle-prove-it-works` installed next to this skill. If a `../<skill>/` file it points to is missing, tell the user to run `npx skills add Stixels/skills --skill principle-encode-lessons-in-structure --skill principle-laziness-protocol --skill principle-prove-it-works`.
+
 # Build the Lever
 
 When the work isn't trivial, build the tool that does it instead of doing it by hand.
