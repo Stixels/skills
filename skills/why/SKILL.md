@@ -2,7 +2,11 @@
 name: why
 description: "Use for 'why does X work this way', 'why we picked Y', design rationale, regressions, postmortems, or data-backed thresholds. Discovers available MCPs and queries each evidence category (source control, issue tracker, long-form docs, real-time chat, infrastructure observability, error tracking, product analytics warehouse) in parallel, then returns a cited read on decisions and tradeoffs. Use how for runtime behavior."
 disable-model-invocation: true
+metadata:
+  dependencies: "mstack"
 ---
+
+> Needs `mstack` installed next to this skill. If a `../<skill>/` file it points to is missing, tell the user to run `npx skills add Stixels/skills --skill mstack`.
 
 # Why
 

@@ -4,7 +4,11 @@ description: poteto's agent style for concise, detailed responses, deliberate su
 disable-model-invocation: true
 icon: crown
 color: yellow
+metadata:
+  dependencies: "mstack"
 ---
+
+> Needs `mstack` installed next to this skill. If a `../<skill>/` file it points to is missing, tell the user to run `npx skills add Stixels/skills --skill mstack`.
 
 # Poteto mode
 

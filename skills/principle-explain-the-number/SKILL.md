@@ -1,7 +1,11 @@
 ---
 name: principle-explain-the-number
 description: "Apply before you measure, and before you trust, report, or act on a number you measured: a speedup, a regression, a throughput, a latency, or an eval result. Find what limits it, and rule out that it measured something other than the work you think."
+metadata:
+  dependencies: "benchmark-checklist principle-prove-it-works"
 ---
+
+> Needs `benchmark-checklist`, `principle-prove-it-works` installed next to this skill. If a `../<skill>/` file it points to is missing, tell the user to run `npx skills add Stixels/skills --skill benchmark-checklist --skill principle-prove-it-works`.
 
 # Explain the Number
 

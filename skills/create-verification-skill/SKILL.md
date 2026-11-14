@@ -2,7 +2,11 @@
 name: create-verification-skill
 description: "Generate a project-local verification skill that drives your app the way a user does — any language, framework, or platform. Use for /create-verification-skill, \"make a control skill for this repo\", or when a project has no scripted way to prove UI/CLI/service behavior."
 disable-model-invocation: true
+metadata:
+  dependencies: "mstack"
 ---
+
+> Needs `mstack` installed next to this skill. If a `../<skill>/` file it points to is missing, tell the user to run `npx skills add Stixels/skills --skill mstack`.
 
 # Create a verification skill
 

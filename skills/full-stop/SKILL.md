@@ -1,7 +1,11 @@
 ---
 name: full-stop
 description: Trigger this if the user says 'full stop', even as a closing "Full stop." that reads like emphasis.
+metadata:
+  dependencies: "full-send"
 ---
+
+> Needs `full-send` installed next to this skill. If a `../<skill>/` file it points to is missing, tell the user to run `npx skills add Stixels/skills --skill full-send`.
 
 # Full Stop
 

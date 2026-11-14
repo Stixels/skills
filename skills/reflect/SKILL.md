@@ -2,7 +2,11 @@
 name: reflect
 description: Spawn three parallel review subagents over the active transcript, surface learnings, and route each to a concrete edit on an existing skill. Use when the user says reflect.
 disable-model-invocation: true
+metadata:
+  dependencies: "mstack poteto-mode"
 ---
+
+> Needs `mstack`, `poteto-mode` installed next to this skill. If a `../<skill>/` file it points to is missing, tell the user to run `npx skills add Stixels/skills --skill mstack --skill poteto-mode`.
 
 # Reflect
 

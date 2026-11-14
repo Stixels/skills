@@ -29,9 +29,17 @@ npx skills@latest add Stixels/skills --skill council --global
 ```
 
 Omit `--global` to install into the current project and share it through Git.
-Update with `npx skills@latest update --global`. Several skills read
-`skills/mstack/HARNESS.md` and `MODELS.md`, so install `mstack` alongside any
-of them.
+Update with `npx skills@latest update --global`.
+
+Some skills lean on others, mostly on `mstack`'s shared `HARNESS.md` and
+`MODELS.md`. Each one lists what it needs under `metadata.dependencies` and
+says so at the top. Until the skills CLI installs those automatically
+([vercel-labs/skills#2545](https://github.com/vercel-labs/skills/pull/2545)),
+add them yourself:
+
+```sh
+npx skills@latest add Stixels/skills --skill tdd --skill mstack --global
+```
 
 Say `/mstack` in any thread for a short guide to which skill fits.
 

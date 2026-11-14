@@ -2,7 +2,11 @@
 name: architect
 description: "Sketch types, signatures, and module structure before code, then stay in the loop while implementation fills in. Use for /architect, 'architect this', 'design this', or non-trivial work where jumping to code would lock in the wrong shape."
 disable-model-invocation: true
+metadata:
+  dependencies: "arena mstack"
 ---
+
+> Needs `arena`, `mstack` installed next to this skill. If a `../<skill>/` file it points to is missing, tell the user to run `npx skills add Stixels/skills --skill arena --skill mstack`.
 
 # Architect
 

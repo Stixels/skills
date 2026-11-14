@@ -2,7 +2,11 @@
 name: unslop
 description: Cut AI tells from any writing.
 disable-model-invocation: true
+metadata:
+  dependencies: "mstack"
 ---
+
+> Needs `mstack` installed next to this skill. If a `../<skill>/` file it points to is missing, tell the user to run `npx skills add Stixels/skills --skill mstack`.
 
 # Unslop
 
